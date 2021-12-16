@@ -138,7 +138,6 @@ bool VK_ShaderSetImpl::addShader(const std::string &spvFile, VkShaderStageFlagBi
 
 bool VK_ShaderSetImpl::isValid()
 {
-    //待完善
     bool hasV = false;
     bool hasFs = false;
     auto itr = shaderStageCreateInfos.begin();

@@ -6,6 +6,7 @@ set(GLFW_ROOT "G:\\vulkanproject\\glfw-3.3.6.bin.WIN64")
 include_directories("G:\\VulkanSDK\\1.2.198.1\\Include")
 LINK_DIRECTORIES("G:\\VulkanSDK\\1.2.198.1\\Lib")
 LINK_DIRECTORIES("G:\\vulkanproject\\glfw-3.3.6.bin.WIN64\\lib-mingw-w64")
+LINK_DIRECTORIES("G:\\VulkanSDK\\1.2.198.1\\Third-Party\\glfw-3.3.6.bin.WIN64\\lib-vc2019")
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
